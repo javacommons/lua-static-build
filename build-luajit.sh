@@ -26,7 +26,7 @@ cd src && install -p -m 0755 luajit $MINGW_PREFIX/bin
 cd $rootdir/luajit-$MSYSTEM_CARCH
 cd src && install -p -m 0755 luajit $rootdir/lua-all/bin-$MSYSTEM_CARCH
 cd $rootdir/luajit-$MSYSTEM_CARCH
-cd src && install -p -m 0644 lua.h luaconf.h lualib.h lauxlib.h lua.hpp $rootdir/lua-all/lib/luajit-$MSYSTEM_CARCH
+cd src && install -p -m 0644 luajit.h lua.h luaconf.h lualib.h lauxlib.h lua.hpp $rootdir/lua-all/lib/luajit-$MSYSTEM_CARCH
 cd $rootdir/luajit-$MSYSTEM_CARCH
 cd src && install -p -m 0644 libluajit.a $rootdir/lua-all/lib/luajit-$MSYSTEM_CARCH
 

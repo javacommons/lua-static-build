@@ -30,7 +30,7 @@ cd src && install -p -m 0755 ljsjit $MINGW_PREFIX/bin
 cd $rootdir/ljsjit-$MSYSTEM_CARCH
 cd src && install -p -m 0755 ljsjit $rootdir/lua-all/bin-$MSYSTEM_CARCH
 cd $rootdir/ljsjit-$MSYSTEM_CARCH
-cd src && install -p -m 0644 lua.h luaconf.h lualib.h lauxlib.h lua.hpp $rootdir/lua-all/lib/ljsjit-$MSYSTEM_CARCH
+cd src && install -p -m 0644 luajit.h lua.h luaconf.h lualib.h lauxlib.h lua.hpp $rootdir/lua-all/lib/ljsjit-$MSYSTEM_CARCH
 cd $rootdir/ljsjit-$MSYSTEM_CARCH
 cd src && install -p -m 0644 libljsjit.a $rootdir/lua-all/lib/ljsjit-$MSYSTEM_CARCH
 
